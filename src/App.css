@@ -1,0 +1,77 @@
+/*frontend/myapp/studentLogin.css */
+
+.home {
+  padding: 2px;
+  background-color: lightblue;
+  font-size: 12px;
+}
+
+.home h1 {
+  font-size: 12px;
+  margin: 0;
+  text-align: center;
+}
+
+.home a {
+  font-size: 10px;
+  margin: 0 3px;
+  color: black;
+  text-decoration: none;
+}
+
+.home a:hover {
+  color: white;
+}
+
+/* 🔷 Pages */
+.page {
+  font-size: 12px;
+  text-align: center;
+}
+
+/* 🔷 Login */
+.login-box input {
+  font-size: 8px;
+  padding: 1px;
+  margin-right: 5px;
+}
+
+.login-box button {
+  font-size: 10px;
+  padding: 1px 12px;
+  cursor: pointer;
+}
+
+.dashboard {
+    display: flex;
+}
+
+.dashboard aside{
+    background-color: lightcyan;
+    padding:3px;
+}
+
+.dashboard aside h2{
+    margin: 0;
+    font-size: 10px;
+    text-align: center;
+}
+.dashboard aside p{
+    margin: 0;
+    font-size: 8px;
+}
+.dashboard main nav{
+    background-color: lightcyan;
+    padding: 3px;
+    width: 80vw;
+}
+.dashboard main nav a {
+  margin: 0 2px;
+  font-size: 8px;
+  color: black;
+  text-decoration: none;
+}
+
+.dashboard nav a:hover {
+    color: blue;
+}
